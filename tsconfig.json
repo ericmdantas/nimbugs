@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es5",
+        "sourceMap": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "noImplicitAny": false
+    },
+    "exclude": [
+        "node_modules",
+        "typings"
+    ],
+    "filesGlob": [
+        "**/*.ts",
+        "typings/main.d.ts",
+        "node_modules/angular2/typings/browser.d.ts"
+    ],
+    "files": [
+        "client/dev/bug/components/bug_cmp.ts",
+        "client/dev/index.ts",
+        "tests/client/todo/components/todo-cmp_test.ts",
+        "tests/client/todo/services/todo-service_test.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}

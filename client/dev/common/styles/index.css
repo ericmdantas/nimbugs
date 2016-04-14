@@ -1,0 +1,14 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: url('../../assets/images/bkg.png');
+}
+
+main {
+  max-width: 999px;
+  background-color: #fff;
+  margin: 0 auto;
+}
